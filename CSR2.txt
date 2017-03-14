@@ -1,0 +1,19 @@
+CSCFA Specification Reference Division 
+[
+    "cscfa-csr@division.cscfa.fr",
+    "cscfa-contact@cscfa.fr"
+]
+
+Specification - Chain Of Responsibility
+
+Abstract
+
+    This document specify the main feature of the Chain Of Responsibility design pattern.
+    
+Table of Contents
+    1. Implementation
+
+1. Implementation
+    This CSR implement the CSR-1
+
+2. 
