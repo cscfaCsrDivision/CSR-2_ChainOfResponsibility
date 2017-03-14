@@ -16,4 +16,3 @@ Table of Contents
 1. Implementation
     This CSR implement the CSR-1
 
-2. 
