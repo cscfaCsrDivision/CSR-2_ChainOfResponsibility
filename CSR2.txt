@@ -16,10 +16,10 @@ Table of Contents
     3. Definition
     4. CORDP Structure
         4.1. CORDP Data transfer object
-        4.2. CORDP Links
 
 1. Implementation
     This CSR implement the CSR-1
+    This CSR implement the CSR-3
 
 2. Terminology
 
@@ -30,17 +30,12 @@ Table of Contents
     A CORDP can be represented as a simply linked chain where each elements are the same class and will give their
 result to the next element while a next one exist.
 
-    To enhance reusability, a data transfert object MUST be given to the CORDS since a specialised implementation
-is not defined from interfaces.
+    To enhance reusability, a DTO MUST be given to the CORDS since a specialised implementation is not defined from
+interfaces.
 
 4. CORDP Structure
 
-    4.1. CORDP Data transfer object
-    
-    The CORDP generic data transfer object SHOULD implement an interface that allow to set and get a set of attributes.
-By this way the link of the chains will be allowed to work with the same data transfer object.
-
-    4.2. CORDP Links
+    4.1. CORDP Links
     
     The CORDP links MUST implement a method to check the next link existance. This method MAY be called 'hasNext'.
     The CORDP links MUST implement a method to process a request. This method MAY be called 'run'.
