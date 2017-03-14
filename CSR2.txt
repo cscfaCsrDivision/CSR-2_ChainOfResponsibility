@@ -12,6 +12,11 @@ Abstract
     
 Table of Contents
     1. Implementation
+    2. Terminology
+    3. Definition
+    4. CORDP Structure
+        4.1. CORDP Data transfer object
+        4.2. CORDP Links
 
 1. Implementation
     This CSR implement the CSR-1
@@ -32,8 +37,8 @@ is not defined from interfaces.
 
     4.1. CORDP Data transfer object
     
-    The CORDP data transfer object MUST implement an interface that allow to set and get a set of attributes. By this
-way the link of the chains will be allowed to work with the same data transfer object.
+    The CORDP generic data transfer object SHOULD implement an interface that allow to set and get a set of attributes.
+By this way the link of the chains will be allowed to work with the same data transfer object.
 
     4.2. CORDP Links
     
